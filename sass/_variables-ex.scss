@@ -1,0 +1,23 @@
+$viber: #8f5db7;
+$outlook: #0072C6;
+$facebook: #3b5998;
+$messenger: #0084ff;
+$twitter: #00aced;
+$linkedin: #0077b5;
+$instagram: #D9317A;
+$whatsapp: #25d366;
+$pinterest: #BD081C;
+$theme-colors: map-merge(
+                (
+                        "viber":$viber,
+                        "outlook":$outlook,
+                        "facebook":$facebook,
+                        "messenger":$messenger,
+                        "twitter":$twitter,
+                        "linkedin":$linkedin,
+                        "instagram-mono":$instagram,
+                        "whatsapp":$whatsapp,
+                        "pinterest": $pinterest
+                ),
+                $theme-colors
+);

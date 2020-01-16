@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap4ext",
+  "version": "1.0.0",
+  "description": "Extend the bootstrap library",
+  "main": "dist/bootstrap-ext.css",
+  "browser": "index.html",
+  "author": "Andreas Ntrouflias <antrouflias@gmail.com>",
+  "scripts": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "sass": "^1.24.4"
+  }
+}

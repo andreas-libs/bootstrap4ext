@@ -1,0 +1,41 @@
+$hover-background-instagram: darken($instagram, 7.5%);
+$active-background-instagram: darken($instagram, 10%);
+
+.btn-instagram {
+  color: $white;
+  @include instagram-background(0%);
+  border-color: $instagram;
+  position: relative;
+
+  &:hover {
+    color: $white;
+    border-color: darken($instagram, 10%);
+
+    &:after {
+      content: "";
+      background: rgba(0, 0, 0, 0.075);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &:active {
+    color: $white;
+    border-color: darken($instagram, 12.5%);
+
+    &:after {
+      content: "";
+      background: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// #D9317A

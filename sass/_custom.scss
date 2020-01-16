@@ -1,0 +1,9 @@
+.fa-instagram-bg {
+  padding: 2px 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: $white;
+
+  @include instagram-background(0%);
+}
