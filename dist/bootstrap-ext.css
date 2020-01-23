@@ -2573,6 +2573,28 @@ textarea.form-control {
   }
 }
 
+.input-group-select > select.form-control {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.input-group-select:after {
+  pointer-events: none;
+  content: "";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  position: absolute;
+  top: 0.7em;
+  right: 0.7em;
+  color: #292a33;
+  z-index: 3;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;

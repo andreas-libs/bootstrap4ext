@@ -44,6 +44,20 @@
 
     <div class="card border mb-3">
         <div class="card-body">
+            <div class="btn btn-viber">Viber</div>
+            <div class="btn btn-facebook">Facebook</div>
+            <div class="btn btn-messenger">Messenger</div>
+            <div class="btn btn-outlook">Outlook</div>
+            <div class="btn btn-instagram">Instagram</div>
+            <div class="btn btn-linkedin">Linkedin</div>
+            <div class="btn btn-twitter">Twitter</div>
+            <div class="btn btn-whatsapp">Whatsapp</div>
+            <div class="btn btn-pinterest">Pinterest</div>
+        </div>
+    </div>
+
+    <div class="card border mb-3">
+        <div class="card-body">
             <div class="spinner-border text-primary" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -101,15 +115,21 @@
 
     <div class="card border mb-3">
         <div class="card-body">
-            <div class="btn btn-viber">Viber</div>
-            <div class="btn btn-facebook">Facebook</div>
-            <div class="btn btn-messenger">Messenger</div>
-            <div class="btn btn-outlook">Outlook</div>
-            <div class="btn btn-instagram">Instagram</div>
-            <div class="btn btn-linkedin">Linkedin</div>
-            <div class="btn btn-twitter">Twitter</div>
-            <div class="btn btn-whatsapp">Whatsapp</div>
-            <div class="btn btn-pinterest">Pinterest</div>
+            <label class="sr-only" for="day">Day</label>
+            <div class="input-group  input-group-select">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Day</div>
+                </div>
+                <select type="text" class="form-control" id="day" name="day">
+                    <option value="" selected disabled>Select Day</option>
+                    <option value="1">Mon</option>
+                    <option value="2">Tue</option>
+                    <option value="3">Wen</option>
+                    <option value="4">Thu</option>
+                    <option value="5">Fri</option>
+                    <option value="6">Sat</option>
+                </select>
+            </div>
         </div>
     </div>
 
