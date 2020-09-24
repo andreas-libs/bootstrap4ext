@@ -1,6 +1,6 @@
 {
   "name": "bootstrap4ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend the bootstrap library",
   "main": "dist/bootstrap-ext.css",
   "browser": "index.html",
@@ -9,7 +9,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "sass": "^1.24.4"
