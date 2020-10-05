@@ -5,7 +5,10 @@
   "main": "dist/bootstrap-ext.css",
   "browser": "index.html",
   "author": "Andreas Ntrouflias <antrouflias@gmail.com>",
-  "scripts": {},
+  "scripts": {
+    "sass-watch": "sass --watch sass/bootstrap-ext.scss dist/bootstrap-ext.css",
+    "sass-build": "sass sass/bootstrap-ext.scss dist/bootstrap-ext.css && sass sass/bootstrap-ext.scss dist/bootstrap-ext.min.css --style compressed"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",

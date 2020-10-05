@@ -8,16 +8,18 @@ $instagram: #D9317A;
 $whatsapp: #25d366;
 $pinterest: #BD081C;
 $theme-colors: map-merge(
-                (
-                        "viber":$viber,
-                        "outlook":$outlook,
-                        "facebook":$facebook,
-                        "messenger":$messenger,
-                        "twitter":$twitter,
-                        "linkedin":$linkedin,
-                        "instagram-mono":$instagram,
-                        "whatsapp":$whatsapp,
-                        "pinterest": $pinterest
-                ),
-                $theme-colors
+  (
+    "viber":$viber,
+    "outlook":$outlook,
+    "facebook":$facebook,
+    "messenger":$messenger,
+    "twitter":$twitter,
+    "linkedin":$linkedin,
+    "instagram-mono":$instagram,
+    "whatsapp":$whatsapp,
+    "pinterest": $pinterest
+  ),
+  $theme-colors
 );
+
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";

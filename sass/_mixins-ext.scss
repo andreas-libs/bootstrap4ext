@@ -31,7 +31,7 @@
   radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
   radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
   radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-  linear-gradient($linearViolet, $linearPurple 30%, $linearRed 50%, $linearOrange 70%, $linearYellow 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=quote($linearViolet), endColorstr=quote($linearYellow), GradientType=1); /* IE6-9 */
+  linear-gradient($linearViolet, $linearPurple 30%, $linearRed 50%, $linearOrange 70%, $linearYellow 100%); /* Modern browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$linearViolet}' , endColorstr='#{$linearYellow}' , GradientType=1); /* IE6-9 */
 }
 

@@ -1,9 +1,15 @@
-.fa-instagram-bg {
-  padding: 2px 3px;
+.fa-logo {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   color: $white;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.bg-instagram {
   @include instagram-background(0%);
 }

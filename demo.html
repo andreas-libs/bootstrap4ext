@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
-    <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="dist/bootstrap-ext.min.css">
 </head>
-<body>
+<body class="bg-light">
 
 <div class="container">
-    <div class="card border mb-3">
+    <div class="card border my-3">
         <div class="card-body">
             <div class="card-title">Bootstrap Palette</div>
             <div class="card-text mb-3">
@@ -39,20 +39,29 @@
                 <span class="fa fa-square shadow text-pinterest fa-2x"></span>
             </div>
         </div>
-
     </div>
 
     <div class="card border mb-3">
         <div class="card-body">
-            <div class="btn btn-viber">Viber</div>
-            <div class="btn btn-facebook">Facebook</div>
-            <div class="btn btn-messenger">Messenger</div>
-            <div class="btn btn-outlook">Outlook</div>
-            <div class="btn btn-instagram">Instagram</div>
-            <div class="btn btn-linkedin">Linkedin</div>
-            <div class="btn btn-twitter">Twitter</div>
-            <div class="btn btn-whatsapp">Whatsapp</div>
-            <div class="btn btn-pinterest">Pinterest</div>
+            <div class="btn d-none d-md-inline-block btn-viber"><i class="fab fa-viber"></i> Viber</div>
+            <div class="btn d-none d-md-inline-block btn-facebook"><i class="fab fa-facebook-square"></i> Facebook</div>
+            <div class="btn d-none d-md-inline-block btn-messenger"><i class="fab fa-facebook-messenger"></i> Messenger</div>
+            <div class="btn d-none d-md-inline-block btn-outlook"><i class=""></i> Outlook</div>
+            <div class="btn d-none d-md-inline-block btn-instagram"><i class="fab fa-instagram"></i> Instagram</div>
+            <div class="btn d-none d-md-inline-block btn-linkedin"><i class="fab fa-linkedin"></i> Linkedin</div>
+            <div class="btn d-none d-md-inline-block btn-twitter"><i class="fab fa-twitter"></i> Twitter</div>
+            <div class="btn d-none d-md-inline-block btn-whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp</div>
+            <div class="btn d-none d-md-inline-block btn-pinterest"><i class="fab fa-pinterest"></i> Pinterest</div>
+
+            <div class="btn d-md-none btn-block btn-viber">Viber</div>
+            <div class="btn d-md-none btn-block btn-facebook">Facebook</div>
+            <div class="btn d-md-none btn-block btn-messenger">Messenger</div>
+            <div class="btn d-md-none btn-block btn-outlook">Outlook</div>
+            <div class="btn d-md-none btn-block btn-instagram">Instagram</div>
+            <div class="btn d-md-none btn-block btn-linkedin">Linkedin</div>
+            <div class="btn d-md-none btn-block btn-twitter">Twitter</div>
+            <div class="btn d-md-none btn-block btn-whatsapp">Whatsapp</div>
+            <div class="btn d-md-none btn-block btn-pinterest">Pinterest</div>
         </div>
     </div>
 
@@ -128,6 +137,7 @@
                     <option value="4">Thu</option>
                     <option value="5">Fri</option>
                     <option value="6">Sat</option>
+                    <option value="7">Sun</option>
                 </select>
             </div>
         </div>
@@ -135,12 +145,17 @@
 
     <div class="card border mb-3">
         <div class="card-body">
-            <span class="fab fa-instagram fa-instagram-bg fa-2x"></span>
+            <span class="fab fa-instagram bg-instagram fa-logo fa-2x"></span>
+            <span class="fab fa-facebook-f bg-facebook fa-logo fa-2x"></span>
+            <span class="fab fa-facebook-messenger bg-messenger fa-logo fa-2x"></span>
+            <span class="fab fa-viber bg-viber fa-logo fa-2x"></span>
+            <span class="fab fa-whatsapp bg-whatsapp fa-logo fa-2x"></span>
+            <span class="fab fa-twitter bg-twitter fa-logo fa-2x"></span>
+            <span class="fab fa-linkedin-in bg-linkedin fa-logo fa-2x"></span>
+            <span class="fab fa-pinterest-p bg-pinterest fa-logo fa-2x"></span>
         </div>
     </div>
-
 </div>
-
 
 </body>
 </html>

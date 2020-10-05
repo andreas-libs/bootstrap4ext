@@ -1,10 +1,17 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-//
+
+// Variables
 @import "variables-ex";
+
 @import "../node_modules/bootstrap/scss/mixins";
-//
+
+// Mixins
 @import "mixins-ext";
+
+// Add Fontawesome
+@import "fontawesome-free";
+
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
@@ -13,12 +20,15 @@
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/tables";
 @import "../node_modules/bootstrap/scss/forms";
-//
+
+// Form additions
 @import "forms-ext";
 
 @import "../node_modules/bootstrap/scss/buttons";
-//
+
+// Buttons
 @import "buttons-ext";
+
 @import "../node_modules/bootstrap/scss/transitions";
 @import "../node_modules/bootstrap/scss/dropdown";
 @import "../node_modules/bootstrap/scss/button-group";
@@ -42,11 +52,14 @@
 @import "../node_modules/bootstrap/scss/popover";
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/spinners";
-//
+
+// Spinners
 @import "spinners-ext";
+
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/print";
 
+// Custom additions
 @import "custom";
 
 body, html {
