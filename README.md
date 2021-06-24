@@ -2,7 +2,9 @@
 
 [![Npm version](https://img.shields.io/badge/npm-latest-CB3837.svg?style=flat&logo=NPM)](https://docs.npmjs.com)
 [![Bootstrap version](https://img.shields.io/badge/Bootstrap-^4.4-7952b3.svg?style=flat&logo=Bootstrap)](https://getbootstrap.com/docs/4.4/getting-started/introduction)
-[![Project version](https://img.shields.io/badge/version-dev-informational.svg?style=flat)]()
+[![Project version](https://img.shields.io/badge/version-1.0.1-informational.svg?style=flat)]()
+
+This is an extended bootstrap 4 library, including font awesome by default. Has additional colors, buttons and loaders.
 
 ### [Demo Page](https://lib-hub.web.app/bootstrap4ext)
 
@@ -25,24 +27,24 @@
 
 ### Buttons
 
-| Name | Button | HTML Class |
-|------|-------|-------|
-| viber | | `btn btn-viber` |
-| outlook | | `btn btn-outlook` |
-| facebook | | `btn btn-facebook` |
-| messenger | | `btn btn-messenger` |
-| twitter | | `btn btn-twitter` |
-| linkedin | | `btn btn-linkedin` |
-| instagram | | `btn btn-instagram` |
-| whatsapp | | `btn btn-whatsapp` |
-| pinterest | | `btn btn-pinterest` |
+| Name | HTML Class |
+|------|-------|
+| viber | `btn btn-viber` |
+| outlook | `btn btn-outlook` |
+| facebook | `btn btn-facebook` |
+| messenger | `btn btn-messenger` |
+| twitter | `btn btn-twitter` |
+| linkedin | `btn btn-linkedin` |
+| instagram | `btn btn-instagram` |
+| whatsapp | `btn btn-whatsapp` |
+| pinterest | `btn btn-pinterest` |
 
 ### Loaders
 
-| Loader | HTML Class |
-|-------|-------|
-|       | `spinner-grow` |
-|       | `spinner-coin` |
-|       | `spinner-hourglass` |
-|       | `spinner-dual` |
-|       | `spinner-eclipse` |
+| Class |
+|-------|
+| `spinner-grow` |
+| `spinner-coin` |
+| `spinner-hourglass` |
+| `spinner-dual` |
+| `spinner-eclipse` |
